@@ -1,0 +1,38 @@
+{
+  "name": "tiff2pdf-cli",
+  "version": "1.0.0",
+  "description": "Command line utility to convert tiff file to pdf",
+  "main": "./bin/cli.js",
+  "bin": {
+    "tiff2pdf-cli": "bin/cli.js"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "format": "prettier --write ."
+  },
+  "author": "Yash Eksambekar",
+  "keywords": [
+    "tiff",
+    "pdf"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^9.3.0",
+    "jpeg-js": "^0.4.4",
+    "pdfjs": "^2.4.7",
+    "utif": "^3.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.19.0",
+    "eslint-config-prettier": "^8.5.0",
+    "prettier": "^2.7.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samba9274/tiff2pdf-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/samba9274/tiff2pdf-cli/issues"
+  },
+  "homepage": "https://github.com/samba9274/tiff2pdf-cli#readme"
+}
