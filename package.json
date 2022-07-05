@@ -1,6 +1,6 @@
 {
   "name": "tiff2pdf-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Command line utility to convert tiff file to pdf",
   "main": "./bin/cli.js",
   "bin": {

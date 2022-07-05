@@ -2,6 +2,10 @@
 
 Command line utility to convert tiff file to pdf
 
+![npm](https://img.shields.io/npm/v/tiff2pdf-cli?logo=npm)
+![npm](https://img.shields.io/npm/dt/tiff2pdf-cli)
+![GitHub](https://img.shields.io/github/license/samba9274/tiff2pdf-cli)
+
 ## Installation
 
 ```sh
